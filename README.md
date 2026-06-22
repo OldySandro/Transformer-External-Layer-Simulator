@@ -1,4 +1,4 @@
-# Transformer External Layer Simulator
+# TELS (Transformer External Layer Simulation)
 
 A research simulator for evaluating the influence, behavior, and stability of external layers within Transformer architectures.
 
