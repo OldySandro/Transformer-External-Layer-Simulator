@@ -58,5 +58,11 @@ Supported modes:
 - Memory Layers
 - Reasoning Layers
 - Control Layers
-- KAC
 - Experimental Transformer Modules
+
+## Goal
+
+Provide a reproducible environment for testing whether an external layer genuinely influences a Transformer architecture and whether that influence remains stable across execution and training.
+
+### Author 
+Oldy Sandro
