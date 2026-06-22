@@ -1,0 +1,32 @@
+{
+  "arch_id": "ARC-AF49-mod-test",
+  "arch_name": "ARC-AF49-mod (versi kecil untuk uji simulasi)",
+  "arch_family": "decoder-only-transformer",
+
+  "vocab_size": 32000,
+  "hidden_dim": 384,
+  "num_layers": 9,
+  "seq_len": 1024,
+
+  "attn_type": "GQA",
+  "num_heads": 6,
+  "num_kv_heads": 1,
+  "head_dim": 64,
+
+  "ffn_type": "GEGLU",
+  "ffn_multiplier": 4.0,
+
+  "norm_type": "RMSNorm",
+  "pos_enc": "RoPE",
+  "rope_theta": 10000.0,
+
+  "tie_embeddings": true,
+  "dropout": 0.0,
+
+  "optimizer_type": "AdamW",
+  "optimizer_lr": 0.0003,
+  "use_gradient_checkpointing": true,
+  "use_mixed_precision": true,
+
+  "injection_points": []
+}
